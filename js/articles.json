@@ -1,0 +1,25 @@
+{
+	"articles": [
+		{
+			"title": "The Science Behind the Power of Words",
+			"author": "Me",
+			"copy": "In the beginning was the Word",
+			"published": "When I understand",
+			"id": 1
+		},
+		{
+			"title": "Vibration is the Fabric of the Universe",
+			"author": "Me, again",
+			"copy": "All matter is vibrating",
+			"published": "Soon",
+			"id": 2
+		},
+		{
+			"title": "JRR Tolkien's Song From the 'Silmarillion'",
+			"author": "Again, it's me",
+			"copy": "A song created the world of Tolkien's stories.",
+			"published": "Just a thought. No publish date.",
+			"id": 3
+		}
+	]
+}

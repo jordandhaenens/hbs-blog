@@ -1,0 +1,40 @@
+{{#*inline "div"}}
+	<div class="article section">
+		<h3>{{title}}</h3>
+		<p>{{author}}</p><hr>
+		<p>{{copy}}</p><hr>
+		<footer>Published: {{published}}</footer>
+	</div>
+{{/inline}}
+
+
+{{#each articles}}
+	{{!-- {{#if data.id == "1"}} --}}
+	<div class="row">
+		<div id="article1" class="col s8">
+		{{> div}}
+		</div>
+		<div class="col s4"></div>
+	</div>
+	{{!-- {{/if}}
+	{{#if data.id == "2"}} --}}
+	<div class="row">
+		<div class="col s2"></div>
+		<div id="article2" class="col s8">
+		{{> div}}
+		</div>
+		<div class="col s2"></div>
+	</div>
+	{{!-- {{/if}}
+	{{#if data.id == "3"}} --}}
+	<div class="row">
+		<div class="col s4"></div>
+		<div id="article3" class="col s8">
+		{{> div}}
+		</div>
+	</div>
+	{{!-- {{/if}} --}}
+
+
+{{/each}}
+
